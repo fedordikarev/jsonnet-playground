@@ -1,0 +1,12 @@
+{
+	"container-1": {
+		"default": {
+			"cpuReq": 1, "cpuLimit": 2,
+			"memReq": "256Mi", "memLimit": "512Mi"
+		},
+		"ops-cluster": {
+			"cpuReq": 2, "cpuLimit": 4,
+			"memReq": "1Gi", "memLimit": "2Gi"
+		}
+	}
+}

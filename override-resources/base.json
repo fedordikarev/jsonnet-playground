@@ -1,0 +1,21 @@
+{
+	"dev-cluster": {
+		"container-1": {
+			"image": "container-1:latest"
+		},
+		"container-2": {
+			"image": "container-2:latest",
+			"cpuReq": 1
+		}
+	},
+	"prod-cluster": {
+		"container-2": {
+			"image": "container-2:latest"
+		}
+	},
+	"ops-cluster": {
+		"container-1": {
+			"image": "container-1:latest"
+		}
+	}
+}
